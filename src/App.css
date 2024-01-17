@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  /*background-color: #282c34; */
+  background-image: url("./banner7.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+.Nav-bar {
+  background-color: darkgray;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 5px;
+  flex-grow: 3;
+}
+
+.nav{
+  flex-grow: 0;
+  width: 15vw;
+  flex-shrink: 2;
+  margin-right: 5px;
+}
+
+.payload {
+  flex-grow: 2;
+  height: 90vh;
+}
+
+.headerRow {
+  background-color: lightgray;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+
+.formBox {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+.inputBox{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.inputField {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.top-component {
+  margin-bottom: 20px;
+}
+
+.test{
+  background-color: cadetblue;
+}
+
+.test2{
+  background-color: brown;
+}
+
+
+#alert-dialog-description{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.red-dialog{
+  background-color: rgba(255, 200, 200, 1);
+}
+
+.green-dialog{
+  background-color: rgba(200, 255, 200, 0.5);
+}
+
+.gray-dialog{
+  background-color: lightgray;
+}
+
+.small {
+  font-size: small;
+}
+
+.mat-success {
+  background-color: green;
+  color: #fff;
+}
+
+
+

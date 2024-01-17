@@ -1,0 +1,12 @@
+:doctype: book
+
+:version: 1.0.0
+:asciidoctor-base-version: 1.5.2
+:imagesdir: ./
+
+
+image::banner.png[]
+= LR Easy Label Print - Version {version}
+
+== Introduction
+This software is the React UI for Easy label Service. Please see React documentation to update it.
